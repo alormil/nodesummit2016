@@ -25,7 +25,7 @@ Once connected, you should see a color change on the photon from flashing blue t
 Next, let's get the DotStar LED strips to light up.
 
 1. Set up the circuit as such:
-![Photon Connections](https://theoreticalideations.com/static/fritzing_basic.png)
+![Photon Connections](https://raw.githubusercontent.com/alormil/particle-photon-tic-tac-toe/master/resources/board-layout.jpeg)
 2. Go back to the [Particle build page](https://build.particle.io/build/new)
 3. You should see your Photon listed under the "Devices" section
 4. Go to the "Libraries" section and search for **dotstar** under "Community Libraries"
@@ -88,7 +88,7 @@ This Node.js server will use the [Particle Javascript SDK](https://docs.particle
 **Stretch goals**
 
 - Add support for multiple games that can be switched between using a button wired up to the Photon. The button can be wired up as:
-![Button Wiring](https://theoreticalideations.com/static/fritzing_button.png)
+![Button Wiring](https://raw.githubusercontent.com/alormil/particle-photon-tic-tac-toe/master/resources/button-layout.png)
 - Modify the firmware to add a new Particle API method called `set_flash` that will flash the lights at a set rate.
 
 ## Animation Control
